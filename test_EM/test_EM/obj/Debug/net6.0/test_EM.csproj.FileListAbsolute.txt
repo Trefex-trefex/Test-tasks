@@ -1,0 +1,16 @@
+C:\Users\misha\source\repos\test_EM\test_EM\bin\Debug\net6.0\test_EM.exe
+C:\Users\misha\source\repos\test_EM\test_EM\bin\Debug\net6.0\test_EM.deps.json
+C:\Users\misha\source\repos\test_EM\test_EM\bin\Debug\net6.0\test_EM.runtimeconfig.json
+C:\Users\misha\source\repos\test_EM\test_EM\bin\Debug\net6.0\test_EM.dll
+C:\Users\misha\source\repos\test_EM\test_EM\bin\Debug\net6.0\test_EM.pdb
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.AssemblyInfoInputs.cache
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.AssemblyInfo.cs
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.csproj.CoreCompileInputs.cache
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.dll
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\refint\test_EM.dll
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.pdb
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.genruntimeconfig.cache
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\ref\test_EM.dll
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.Properties.Resources.resources
+C:\Users\misha\source\repos\test_EM\test_EM\obj\Debug\net6.0\test_EM.csproj.GenerateResource.cache
