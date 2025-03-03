@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\misha\\source\\repos\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj": {}
+    "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\misha\\source\\repos\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj": {
+    "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj",
+        "projectUniqueName": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj",
         "projectName": "BitfinexConnector",
-        "projectPath": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj",
+        "projectPath": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj",
         "packagesPath": "C:\\Users\\misha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\BitfinexConnector\\obj\\",
+        "outputPath": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\BitfinexConnector\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\misha\\source\\repos\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj": {
+    "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj",
+        "projectUniqueName": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj",
         "projectName": "TestBitfinex",
-        "projectPath": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj",
+        "projectPath": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj",
         "packagesPath": "C:\\Users\\misha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\TestBitfinex\\obj\\",
+        "outputPath": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\TestBitfinex\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -103,8 +103,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\misha\\source\\repos\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj": {
-                "projectPath": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj"
+              "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj": {
+                "projectPath": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\BitfinexConnector\\BitfinexConnector.csproj"
               }
             }
           }

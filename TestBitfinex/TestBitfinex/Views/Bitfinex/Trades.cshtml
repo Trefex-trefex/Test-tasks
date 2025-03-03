@@ -1,0 +1,23 @@
+﻿@model IEnumerable<BitfinexConnector.Models.Trade>
+
+<h2>Последние трейды</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Цена</th>
+        <th>Объем</th>
+        <th>Время</th>
+        <th>Сторона</th>
+    </tr>
+    @foreach (var trade in Model)
+    {
+        <tr>
+            <td>@trade.Id</td>
+            <td>@trade.Price</td>
+            <td>@trade.Amount</td>
+            <td>@trade.Time</td>
+            <td>@trade.Side</td>
+        </tr>
+    }
+</table>

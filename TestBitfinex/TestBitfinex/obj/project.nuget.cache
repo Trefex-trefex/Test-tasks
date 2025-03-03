@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qZ0Mrv45tkxOj/4wO7lX+Z4bA+xAwKxKXG8a8OVKjZnx1/yTjDVl1SZ0hLhKy3dFq+O4oxqGa7ouQVI5L/gLsg==",
+  "dgSpecHash": "9au1RXwpAmW7zlvUwdtkmbHYLhoZ8mBdfyt55vZRtPI73wH5ae4v0D0l3M/Ry/zOfukicq4OVhgP/9oEpRtFXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\misha\\source\\repos\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj",
+  "projectFilePath": "C:\\misha\\HwProj\\Test-tasks\\TestBitfinex\\TestBitfinex\\TestBitfinex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\misha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.2\\microsoft.bcl.asyncinterfaces.9.0.2.nupkg.sha512",
     "C:\\Users\\misha\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",

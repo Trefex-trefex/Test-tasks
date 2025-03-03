@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BitfinexConnector
-build_property.ProjectDir = C:\Users\misha\source\repos\TestBitfinex\BitfinexConnector\
+build_property.ProjectDir = C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\

@@ -1,0 +1,12 @@
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\bin\Debug\net7.0\BitfinexConnector.deps.json
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\bin\Debug\net7.0\BitfinexConnector.dll
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\bin\Debug\net7.0\BitfinexConnector.pdb
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\BitfinexConnector.csproj.AssemblyReference.cache
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\BitfinexConnector.GeneratedMSBuildEditorConfig.editorconfig
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\BitfinexConnector.AssemblyInfoInputs.cache
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\BitfinexConnector.AssemblyInfo.cs
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\BitfinexConnector.csproj.CoreCompileInputs.cache
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\BitfinexConnector.dll
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\refint\BitfinexConnector.dll
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\BitfinexConnector.pdb
+C:\misha\HwProj\Test-tasks\TestBitfinex\BitfinexConnector\obj\Debug\net7.0\ref\BitfinexConnector.dll

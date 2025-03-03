@@ -9,37 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestBitfinex
 build_property.RootNamespace = TestBitfinex
-build_property.ProjectDir = C:\Users\misha\source\repos\TestBitfinex\TestBitfinex\
+build_property.ProjectDir = C:\misha\HwProj\Test-tasks\TestBitfinex\TestBitfinex\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\misha\source\repos\TestBitfinex\TestBitfinex
+build_property.MSBuildProjectDirectory = C:\misha\HwProj\Test-tasks\TestBitfinex\TestBitfinex
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/misha/source/repos/TestBitfinex/TestBitfinex/Views/Home/Index.cshtml]
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/Bitfinex/Trades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQml0ZmluZXhcVHJhZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/misha/source/repos/TestBitfinex/TestBitfinex/Views/Home/Privacy.cshtml]
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/misha/source/repos/TestBitfinex/TestBitfinex/Views/Shared/Error.cshtml]
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/misha/source/repos/TestBitfinex/TestBitfinex/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/misha/source/repos/TestBitfinex/TestBitfinex/Views/_ViewImports.cshtml]
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/misha/source/repos/TestBitfinex/TestBitfinex/Views/_ViewStart.cshtml]
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/misha/source/repos/TestBitfinex/TestBitfinex/Views/Shared/_Layout.cshtml]
+[C:/misha/HwProj/Test-tasks/TestBitfinex/TestBitfinex/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9l1rmslur5
