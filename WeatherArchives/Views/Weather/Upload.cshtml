@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Загрузка архивов погодных условий";
+}
+
+<h2>Загрузка архивов погодных условий</h2>
+
+@if (ViewData["ErrorMessage"] != null && !string.IsNullOrEmpty(ViewData["ErrorMessage"].ToString()))
+{
+    <div class="alert alert-danger mt-3">
+        @ViewData["ErrorMessage"]
+    </div>
+}
+@if (ViewData["Message"] != null && !string.IsNullOrEmpty(ViewData["Message"].ToString()))
+{
+    <div class="alert alert-info mt-3">
+        @ViewData["Message"]
+    </div>
+}
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="files">Выберите Excel файлы (можно несколько):</label>
+        <input type="file" name="files" multiple class="form-control" accept=".xlsx" />
+    </div>
+    <button type="submit" class="btn btn-primary">Загрузить</button>
+</form>

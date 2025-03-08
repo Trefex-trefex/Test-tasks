@@ -1,0 +1,40 @@
+﻿@model IEnumerable<WeatherArchives.Models.WeatherRecord>
+
+@{
+    ViewData["Title"] = "Архив погодных условий";
+}
+
+<h2>Архив погодных условий</h2>
+
+<!-- Форма для фильтрации (если требуется) -->
+<form method="get">
+    <label>Год:</label>
+    <input type="number" name="year" value="@Context.Request.Query["year"]" />
+    <label>Месяц:</label>
+    <input type="number" name="month" value="@Context.Request.Query["month"]" min="1" max="12" />
+    <button type="submit">Фильтр</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Дата</th>
+            <th>Температура</th>
+            <th>Влажность</th>
+            <th>Скорость ветра</th>
+            <th>Описание</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Date.ToShortDateString()</td>
+                <td>@item.Temperature</td>
+                <td>@item.Humidity</td>
+                <td>@item.WindSpeed</td>
+                <td>@item.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
