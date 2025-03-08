@@ -10,6 +10,7 @@ using NPOI.XSSF.UserModel;
 using System.IO;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace WeatherArchives.Controllers
 {
@@ -28,7 +29,7 @@ namespace WeatherArchives.Controllers
             ViewData["ErrorMessage"] = "";
             return View();
         }
-
+        
         [HttpPost]
         public async Task<IActionResult> Upload(List<IFormFile> files)
         {
@@ -53,25 +54,35 @@ namespace WeatherArchives.Controllers
                         {
                             IRow row = sheet.GetRow(rowIndex);
                             if (row == null) continue;
-
-                            // Пример чтения данных из столбцов. Измените индексы в зависимости от структуры файла.
-                            // Предположим, что:
-                            // 0 - дата, 1 - температура, 2 - влажность, 3 - скорость ветра, 4 - описание
-
                             if (row.GetCell(0) == null) continue;
-                            DateTime date = row.GetCell(0).DateCellValue.GetValueOrDefault();
-
-                            double temperature = row.GetCell(2)?.NumericCellValue ?? 0;
-                            int humidity = (int)(row.GetCell(3)?.NumericCellValue ?? 0);
-                            double windSpeed = row.GetCell(7)?.NumericCellValue ?? 0;
+                            
+                            string dateStr = row.GetCell(0).StringCellValue.Trim(); // Формат: dd.MM.YYYY
+                            string timeStr = row.GetCell(1).StringCellValue.Trim(); // Формат: HH:mm
+                            string dateTimeString = $"{dateStr} {timeStr}";
+                            DateTime dateTime = DateTime.ParseExact(dateTimeString, "dd.MM.yyyy HH:mm", CultureInfo.InvariantCulture);
+                            double temperature = row.GetCell(2).CellType != CellType.String ? row.GetCell(2).NumericCellValue : 0;
+                            double humidity = row.GetCell(3).CellType != CellType.String ? row.GetCell(3).NumericCellValue : 0;
+                            double td = row.GetCell(4).CellType != CellType.String ? row.GetCell(4).NumericCellValue : 0;
+                            int pressure = row.GetCell(5).CellType != CellType.String ? (int)(row.GetCell(5).NumericCellValue) : 0;
+                            string direction = row.GetCell(6)?.ToString() ?? "";
+                            int windSpeed = row.GetCell(7).CellType != CellType.String ? (int)(row.GetCell(7).NumericCellValue) : 0;
+                            int clouds = row.GetCell(8).CellType != CellType.String ? (int)(row.GetCell(8).NumericCellValue) : 0;
+                            int h  = row.GetCell(9).CellType != CellType.String ? (int)(row.GetCell(9).NumericCellValue) : 0;
+                            int vv  = row.GetCell(10).CellType != CellType.String ? (int)(row.GetCell(10).NumericCellValue) : 0;
                             string description = row.GetCell(11)?.ToString() ?? "";
 
                             var record = new WeatherRecord
                             {
-                                Date = date,
+                                Date = dateTime,
                                 Temperature = temperature,
                                 Humidity = humidity,
+                                Td = td,
+                                AirPressure = pressure,
+                                WindDirection = direction,
                                 WindSpeed = windSpeed,
+                                Clouds = clouds,
+                                H = h,
+                                VV = vv,
                                 Description = description
                             };
 
@@ -79,24 +90,12 @@ namespace WeatherArchives.Controllers
                         }
                         
                         // Сохраняем все записи после обработки файла
-                        try
-                        {
-                            await _context.SaveChangesAsync();
-                        }
-                        catch (Exception ex)
-                        {
-                            // Здесь мы выводим подробное сообщение, которое включает inner exception
-                            ViewBag.ErrorMessage = $"Ошибка при сохранении изменений: {ex.InnerException?.Message ?? ex.Message}";
-                            // Если нужно, можно также залогировать весь стек вызова
-                        }
+                        await _context.SaveChangesAsync();
                     }
                 }
                 catch (Exception ex)
                 {
-                    // Логирование ошибки, можно использовать ILogger для записи логов
-                    // Если файл не подлежит разбору, переходим к следующему файлу
                     ViewBag.ErrorMessage = $"Ошибка при обработке файла {file.FileName}: {ex.Message}";
-                    // При желании можно сохранить сообщение в TempData и вывести после загрузки нескольких файлов
                 }
             }
 

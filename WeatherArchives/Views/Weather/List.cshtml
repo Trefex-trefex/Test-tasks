@@ -6,7 +6,6 @@
 
 <h2>Архив погодных условий</h2>
 
-<!-- Форма для фильтрации (если требуется) -->
 <form method="get">
     <label>Год:</label>
     <input type="number" name="year" value="@Context.Request.Query["year"]" />
@@ -21,7 +20,13 @@
             <th>Дата</th>
             <th>Температура</th>
             <th>Влажность</th>
+            <th>Точка росы</th>
+            <th>Атм. давление</th>
+            <th>Направление ветра</th>
             <th>Скорость ветра</th>
+            <th>Облачность</th>
+            <th>Нижн. гр. облачности</th>
+            <th>Горизонт. видимость</th>
             <th>Описание</th>
         </tr>
     </thead>
@@ -32,7 +37,13 @@
                 <td>@item.Date.ToShortDateString()</td>
                 <td>@item.Temperature</td>
                 <td>@item.Humidity</td>
+                <td>@item.Td</td>
+                <td>@item.AirPressure</td>
+                <td>@item.WindDirection</td>
                 <td>@item.WindSpeed</td>
+                <td>@item.Clouds</td>
+                <td>@item.H</td>
+                <td>@item.VV</td>
                 <td>@item.Description</td>
             </tr>
         }
